@@ -1,2 +1,12 @@
+tema :
 Entre dois mundo.
 
+vou fazer um sistema de dia e noite .
+
+de dia vai cuidara das plantas  , regar , limpar , matar bixos e outros  .
+
+
+de noite voce é a planta e presisa distribuir os nutrientes ,agua , luz do sol carregado, puchar minerais do solo etc
+para criar novas folhas  e creser . 
+
+vou colocar mais iterasoes.
