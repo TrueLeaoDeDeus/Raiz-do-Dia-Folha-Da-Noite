@@ -6,12 +6,15 @@ dx			= 0;
 dy			= 0;
 
 atual = 0;
+spr_lita = [spr_regador
+			,spr_arado,
+			spr_arma];
 
 molhado = 60
 tempo = molhado;
 var _item = instance_create_layer(x,y,layer,obj_item);
 
-_item.sprite_index = spr_regador;
+_item.sprite_index = spr_lita[0];
 
 mover = function()
 {
@@ -69,9 +72,9 @@ muda_item = function()
 	if(keyboard_check_pressed(vk_up)) atual++;
 	if(keyboard_check_pressed(vk_down)) atual--;
 
-	atual = clamp(atual,0,array_length(global.spr_lita)-1);
+	atual = clamp(atual,0,array_length(spr_lita)-1);
 	
-		_id_item.sprite_index = global.spr_lita[atual];
+		_id_item.sprite_index = spr_lita[atual];
 	
 	
 	

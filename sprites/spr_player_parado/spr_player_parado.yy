@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "grup_player",
-    "path": "folders/Sprites/grup_player.yy",
+    "name": "Entre ois mundo",
+    "path": "Entre ois mundo.yyp",
   },
 }
