@@ -9,7 +9,7 @@ atual = 0;
 
 molhado = 60
 tempo = molhado;
-var _item = instance_create_depth(x,y,-1,obj_item);
+var _item = instance_create_layer(x,y,layer,obj_item);
 
 _item.sprite_index = spr_regador;
 
@@ -114,7 +114,7 @@ regando = function()
 			if(_space and tempo < 0)
 			{
 				tempo = molhado;
-				
+				// fazer medidor.
 				
 					with(_vaso)
 					{
